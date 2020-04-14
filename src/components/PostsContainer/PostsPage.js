@@ -9,7 +9,7 @@ import dummyData from "../../dummy-data.js";
 
 const PostsPage = () => {
   // set up state for your data
-  const [data, setData] = useState(dummyData);
+  const [data] = useState(dummyData);
 
   return (
     <div className="posts-container-wrapper">
